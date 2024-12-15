@@ -1,0 +1,22 @@
+frr version 8.1
+frr defaults traditional
+hostname R23
+domainname 
+no ipv6 forwarding
+service integrated-vtysh-config
+!
+interface r23-eth0
+ ip address 10.2.2.2/29
+ ip ospf area 0
+exit
+!
+interface r23-eth1
+ ip address 192.168.3.1/29
+ ip ospf area 0
+exit
+!
+interface r23-eth2
+ ip address 10.2.4.1/29
+ ip ospf area 0
+exit
+!

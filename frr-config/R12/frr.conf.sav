@@ -20,20 +20,3 @@ interface r12-eth2
  ip ospf area 0
 exit
 !
-router bgp 100
- bgp router-id 1.2.1.2
- no bgp ebgp-requires-policy
- neighbor 10.1.1.1 remote-as 100
- neighbor 10.1.2.1 remote-as 100
- !
- address-family ipv4 unicast
-  network 10.1.1.0/29
-  network 10.1.2.0/29
-  network 172.16.1.0/29
- exit-address-family
-exit
-!
-router ospf
- ospf router-id 1.2.1.2
-exit
-!

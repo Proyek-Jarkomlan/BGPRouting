@@ -1,0 +1,22 @@
+frr version 8.1
+frr defaults traditional
+hostname R34
+domainname 
+no ipv6 forwarding
+service integrated-vtysh-config
+!
+interface r34-eth0
+ ip address 192.168.3.2/29
+ ip ospf area 0
+exit
+!
+interface r34-eth1
+ ip address 10.3.3.2/29
+ ip ospf area 0
+exit
+!
+interface r34-eth2
+ ip address 10.3.1.2/29
+ ip ospf area 0
+exit
+!
