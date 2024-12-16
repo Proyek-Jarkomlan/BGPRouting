@@ -2,7 +2,7 @@
 
 ## **Configuration**
 
-![BGP Routing Configuration](?raw=true)
+![BGP Routing Configuration](https://github.com/Proyek-Jarkomlan/BGPRouting/blob/main/assets/bgp.jpg?raw=true)
 
 ## **Steps**
 1. Clone this repository:
