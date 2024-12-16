@@ -10,7 +10,7 @@
    git clone https://github.com/Proyek-Jarkomlan/BGPRouting.git
 2. Navigate directory to the project:
    ```bash
-   cd ProyekAkhir
+   cd BGPRouting
 3. Run the project for scenario one with this command:
    ```bash
    sudo python3 bgp-labs.py -c frr-config
